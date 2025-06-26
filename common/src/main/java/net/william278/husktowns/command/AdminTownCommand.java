@@ -36,7 +36,7 @@ import static net.william278.husktowns.config.Settings.TownSettings;
 
 public final class AdminTownCommand extends Command {
     public AdminTownCommand(@NotNull HuskTowns plugin) {
-        super("admintown", List.of("at"), plugin);
+        super("adminnation", List.of("at"), plugin);
         setConsoleExecutable(true);
         setOperatorCommand(true);
         setDefaultExecutor(getHelpCommand());
